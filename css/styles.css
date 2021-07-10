@@ -1,0 +1,24 @@
+span {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+.value {
+    font-weight: 500;
+    color: green;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+}
+
+.field {
+    padding: 20px;
+    border: 2px solid black;
+    }
+
+.field:not(:last-of-type) {
+    margin-right: 20px;
+}
